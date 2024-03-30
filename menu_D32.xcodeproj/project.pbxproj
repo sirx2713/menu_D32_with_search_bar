@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		2EAFC0222BB7F24900BE5DBE /* menu_D32App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAFC0212BB7F24900BE5DBE /* menu_D32App.swift */; };
-		2EAFC0242BB7F24900BE5DBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAFC0232BB7F24900BE5DBE /* ContentView.swift */; };
+		2EAFC0242BB7F24900BE5DBE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAFC0232BB7F24900BE5DBE /* MainView.swift */; };
 		2EAFC0262BB7F24B00BE5DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAFC0252BB7F24B00BE5DBE /* Assets.xcassets */; };
 		2EAFC0292BB7F24B00BE5DBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAFC0282BB7F24B00BE5DBE /* Preview Assets.xcassets */; };
+		2EAFC0302BB7F26D00BE5DBE /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAFC02F2BB7F26D00BE5DBE /* SushiView.swift */; };
+		2EAFC0322BB7F28C00BE5DBE /* SushiLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAFC0312BB7F28C00BE5DBE /* SushiLogic.swift */; };
+		2EAFC0342BB7F60D00BE5DBE /* SushiInfoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EAFC0332BB7F60D00BE5DBE /* SushiInfoData.json */; };
+		2EAFC0362BB7F62E00BE5DBE /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAFC0352BB7F62E00BE5DBE /* DataServices.swift */; };
+		2EAFC0382BB7FB5500BE5DBE /* SushiSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAFC0372BB7FB5500BE5DBE /* SushiSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2EAFC01E2BB7F24900BE5DBE /* menu_D32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = menu_D32.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAFC0212BB7F24900BE5DBE /* menu_D32App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu_D32App.swift; sourceTree = "<group>"; };
-		2EAFC0232BB7F24900BE5DBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2EAFC0232BB7F24900BE5DBE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2EAFC0252BB7F24B00BE5DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EAFC0282BB7F24B00BE5DBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EAFC02F2BB7F26D00BE5DBE /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
+		2EAFC0312BB7F28C00BE5DBE /* SushiLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiLogic.swift; sourceTree = "<group>"; };
+		2EAFC0332BB7F60D00BE5DBE /* SushiInfoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SushiInfoData.json; sourceTree = "<group>"; };
+		2EAFC0352BB7F62E00BE5DBE /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		2EAFC0372BB7FB5500BE5DBE /* SushiSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				2EAFC0212BB7F24900BE5DBE /* menu_D32App.swift */,
-				2EAFC0232BB7F24900BE5DBE /* ContentView.swift */,
+				2EAFC0232BB7F24900BE5DBE /* MainView.swift */,
 				2EAFC0252BB7F24B00BE5DBE /* Assets.xcassets */,
 				2EAFC0272BB7F24B00BE5DBE /* Preview Content */,
+				2EAFC02F2BB7F26D00BE5DBE /* SushiView.swift */,
+				2EAFC0312BB7F28C00BE5DBE /* SushiLogic.swift */,
+				2EAFC0332BB7F60D00BE5DBE /* SushiInfoData.json */,
+				2EAFC0352BB7F62E00BE5DBE /* DataServices.swift */,
+				2EAFC0372BB7FB5500BE5DBE /* SushiSheet.swift */,
 			);
 			path = menu_D32;
 			sourceTree = "<group>";
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EAFC0342BB7F60D00BE5DBE /* SushiInfoData.json in Resources */,
 				2EAFC0292BB7F24B00BE5DBE /* Preview Assets.xcassets in Resources */,
 				2EAFC0262BB7F24B00BE5DBE /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EAFC0242BB7F24900BE5DBE /* ContentView.swift in Sources */,
+				2EAFC0362BB7F62E00BE5DBE /* DataServices.swift in Sources */,
+				2EAFC0242BB7F24900BE5DBE /* MainView.swift in Sources */,
+				2EAFC0382BB7FB5500BE5DBE /* SushiSheet.swift in Sources */,
+				2EAFC0322BB7F28C00BE5DBE /* SushiLogic.swift in Sources */,
 				2EAFC0222BB7F24900BE5DBE /* menu_D32App.swift in Sources */,
+				2EAFC0302BB7F26D00BE5DBE /* SushiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
