@@ -20,7 +20,8 @@ struct MainView: View {
                         .fill(
                             LinearGradient(colors: [Color.red, Color.green], startPoint: .topLeading, endPoint: .bottomTrailing)
                         )
-                        .frame(width: 200, height: 200)
+                        .frame(width: 256, height: 256)
+                    MotionAnimationView()
                     Image("LOGO")
                         .resizable()
                         .scaledToFit()
