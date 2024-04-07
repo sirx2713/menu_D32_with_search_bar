@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E21B2792BB9BAF6006E2035 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21B2782BB9BAF6006E2035 /* MotionAnimationView.swift */; };
 		2EAFC0222BB7F24900BE5DBE /* menu_D32App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAFC0212BB7F24900BE5DBE /* menu_D32App.swift */; };
 		2EAFC0242BB7F24900BE5DBE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAFC0232BB7F24900BE5DBE /* MainView.swift */; };
 		2EAFC0262BB7F24B00BE5DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAFC0252BB7F24B00BE5DBE /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E21B2782BB9BAF6006E2035 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		2EAFC01E2BB7F24900BE5DBE /* menu_D32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = menu_D32.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAFC0212BB7F24900BE5DBE /* menu_D32App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu_D32App.swift; sourceTree = "<group>"; };
 		2EAFC0232BB7F24900BE5DBE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				2EAFC0332BB7F60D00BE5DBE /* SushiInfoData.json */,
 				2EAFC0352BB7F62E00BE5DBE /* DataServices.swift */,
 				2EAFC0372BB7FB5500BE5DBE /* SushiSheet.swift */,
+				2E21B2782BB9BAF6006E2035 /* MotionAnimationView.swift */,
 			);
 			path = menu_D32;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				2EAFC0242BB7F24900BE5DBE /* MainView.swift in Sources */,
 				2EAFC0382BB7FB5500BE5DBE /* SushiSheet.swift in Sources */,
 				2EAFC0322BB7F28C00BE5DBE /* SushiLogic.swift in Sources */,
+				2E21B2792BB9BAF6006E2035 /* MotionAnimationView.swift in Sources */,
 				2EAFC0222BB7F24900BE5DBE /* menu_D32App.swift in Sources */,
 				2EAFC0302BB7F26D00BE5DBE /* SushiView.swift in Sources */,
 			);
