@@ -14,6 +14,7 @@ struct MainView: View {
                 SushiView()
                     .navigationBarBackButtonHidden()
             } label: {
+                //LOGO
                 ZStack{
                     Circle()
                         .fill(
