@@ -9,13 +9,24 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            NavigationLink {
+                SushiView()
+                    .navigationBarBackButtonHidden()
+            } label: {
+                ZStack{
+                    Circle()
+                        .fill(
+                            LinearGradient(colors: [Color.red, Color.green], startPoint: .topLeading, endPoint: .bottomTrailing)
+                        )
+                        .frame(width: 200, height: 200)
+                    Image("LOGO")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 190, height: 190)
+                }
+            }
         }
-        .padding()
     }
 }
 
